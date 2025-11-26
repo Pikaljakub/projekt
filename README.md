@@ -11,9 +11,9 @@ Byl by to web o mém oblíbeném klubu. Zahrnoval by základní info o klubu, hi
 Fanoušci fotbalu
 
 **Návrh obsahových sekcí**
-1.**Informace o klubu**- Aktuální informace o klubu
-2.**Hráči**- Informace o aktuálních hráču klubu
-3.**Historie uspěchu**- Získané tituly, trofeje...
+**Informace o klubu**- Aktuální informace o klubu
+**Hráči**- Informace o aktuálních hráču klubu
+**Historie uspěchu**- Získané tituly, trofeje...
 
 **Návrh designu**
 Chtěl bych stránku udržet v barvách klubu
