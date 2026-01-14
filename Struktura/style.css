@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  .top-section {
+    background-color: rgb(5, 5, 255);
+    padding: 0 20px;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    
+  }
+  .top-section img {
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  h1 {
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+.top-section {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none; 
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    transition:  0.3s;
+}
+.tlacitko-Domů, .tlacitko-Hráči{
+   display: inline-flex;
+    color:white;
+    margin-right: 3px;
+    font-size: 15px;
+    padding: 5px 10px;
+    background-color:rgb(5, 5, 255);
+    text-decoration: none;
+    border-radius: 15px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+ 
+.top-section a.tlacitko-Domů a.tlacitko-Hráči:hover {
+    background-color: darkblue;
+}
+ .top-section a.tlacitko-Domů a.tlacitko-Hráči + h1 {
+  margin-right: auto;
+}
+
+.top-section a.tlacitko-Domů a.tlacitko-Hráči + h1 + p {
+  margin-top: 10px;
+}
+
+.hraci{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(5, 5, 255);
+  color:white;
+  font-family: Arial, sans-serif;
+  width: 40%;
+  height: 120px;
+  margin-left: 30%;
+  border: 1px solid darkblue;
+  border-radius: 40px;
+}
+h2{
+  display: flex;
+  justify-content: center;
+}
